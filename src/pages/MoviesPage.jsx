@@ -50,12 +50,11 @@ function MoviesPage() {
 
     return (
         <div className="min-h-screen bg-gray-100 p-10">
-            {/* HEADER */}
+
             <h1 className="text-4xl font-extrabold text-gray-800 mb-8 text-center">
                 🎬 Movie Watchlist
             </h1>
-
-            {/* FORM CARD */}
+            
             <form
                 onSubmit={handleSubmit}
                 className="max-w-2xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4 mb-10"
@@ -104,7 +103,7 @@ function MoviesPage() {
                 </button>
             </form>
 
-            {/* MOVIE LIST */}
+
             <div className="grid gap-6 max-w-5xl mx-auto">
                 {movies.map((movie) => (
                     <div
@@ -139,7 +138,7 @@ function MoviesPage() {
                             </div>
                         </div>
 
-                        {/* ACTION BUTTONS */}
+
                         <div className="flex gap-3 mt-4">
                             <button
                                 onClick={() =>
