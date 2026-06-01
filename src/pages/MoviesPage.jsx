@@ -27,9 +27,7 @@ function MoviesPage() {
             id: Date.now(),
             ...form,
         };
-
         setMovies((prev) => [...prev, newMovie]);
-
         setForm({
             title: "",
             director: "",
