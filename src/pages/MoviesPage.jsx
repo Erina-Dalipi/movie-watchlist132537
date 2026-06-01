@@ -54,7 +54,7 @@ function MoviesPage() {
             <h1 className="text-4xl font-extrabold text-gray-800 mb-8 text-center">
                 🎬 Movie Watchlist
             </h1>
-            
+
             <form
                 onSubmit={handleSubmit}
                 className="max-w-2xl mx-auto bg-white p-6 rounded-2xl shadow-lg space-y-4 mb-10"
